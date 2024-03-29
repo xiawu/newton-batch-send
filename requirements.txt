@@ -1,0 +1,2 @@
+web3[tester]==5.0.0b1
+newchain-web3==0.1.0
