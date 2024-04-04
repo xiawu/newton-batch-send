@@ -34,6 +34,9 @@ def loadKeystore(path):
     return ret
 
 def main():
+    if len(sys.argv) != 4:
+        print("Usage: %s [keystore path] [send file] [keystore password]" % sys.argv[0])
+        return
     keystore_file_path = sys.argv[1]
     send_file_path = sys.argv[2]
     password = sys.argv[3]
